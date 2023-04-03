@@ -88,5 +88,34 @@ public class Calculadora extends JFrame implements ActionListener {
         if (e.getSource() == botao0) {
             display.setText(display.getText() + "0");
         }
+        if (e.getSource() == botao1) {
+            display.setText(display.getText() + "1");
+        }
+        if (e.getSource() == botao2) {
+            display.setText(display.getText() + "2");
+        }
+        if (e.getSource() == botao3) {
+            display.setText(display.getText() + "3");
+        }
+        if (e.getSource() == botao4) {
+            display.setText(display.getText() + "4");
+        }
+        if (e.getSource() == botao5) {
+            display.setText(display.getText() + "5");
+        }
+        if (e.getSource() == botao6) {
+            display.setText(display.getText() + "6");
+        }
+        if (e.getSource() == botao7) {
+            display.setText(display.getText() + "7");
+        }
+        if (e.getSource() == botao8) {
+            display.setText(display.getText() + "8");
+        }
+        if (e.getSource() == botao9) {
+            display.setText(display.getText() + "9");
+        }
+        
+
     }
 }
